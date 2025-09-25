@@ -39,7 +39,7 @@ int main(){
 //Entrada de dados da carta 2
     printf("\nCadastro carta 2\n");
 
-    printf("Digite o estado: ");
+    printf("Digite a sigla do estado:");
     scanf("%s", carta2.estado);
     
     printf("Digite a primeira letra do estado seguido de um número de 01 a 04. Exemplo: A01, B03 ");
@@ -84,8 +84,9 @@ int main(){
 
 
 
-//Comentários sobre os termos utilizados no código
+//Comentários sobre os termos aprendidos até agora: 
 
+//Comentários = linhas iniciadas por // são comentários e não são executadas pelo programa
 //int = entrada de dados inteiro
 //float = entrada de dados com ponto flutuante
 //char = entrada de dados caractere (letras, números, símbolos, etc.)   
@@ -99,6 +100,10 @@ int main(){
 //scanf = função para ler dados da entrada padrão (teclado)
 //include = diretiva para incluir bibliotecas padrão
 //stdio.h = biblioteca padrão de entrada e saída em C.
+//strings = sequência de caracteres
+//& = operador para obter o endereço de uma variável (usado em scanf)
+//\n = caractere de nova linha para formatar a saída
+
 
 
 
