@@ -15,10 +15,10 @@ int main(){
 //Entrada de dados da carta 1
     printf("Cadastro carta 1\n");
 
-    printf("Digite o estado: ");
+    printf("Digite a sigla do estado: ");
     scanf("%s", carta1.estado);
     
-    printf("Digite o codigo do estado: ");
+    printf("Digite a primeira letra do estado seguido de um número de 01 a 04. Exemplo: A01, B03 ");
     scanf("%s", carta1.codigo);
 
     printf("Digite nome da cidade: ");
@@ -42,7 +42,7 @@ int main(){
     printf("Digite o estado: ");
     scanf("%s", carta2.estado);
     
-    printf("Digite o codigo do estado: ");
+    printf("Digite a primeira letra do estado seguido de um número de 01 a 04. Exemplo: A01, B03 ");
     scanf("%s", carta2.codigo);
 
     printf("Digite nome da cidade: ");
@@ -83,11 +83,26 @@ int main(){
     printf("Pontos Turisticos: %d\n", carta2.turistico);
 
 
+
+//Comentários sobre os termos utilizados no código
+
+//int = entrada de dados inteiro
+//float = entrada de dados com ponto flutuante
+//char = entrada de dados caractere (letras, números, símbolos, etc.)   
+//double = entrada de dados com ponto flutuante com maior precisão
+//%d = formato para dados inteiros
+//%f = formato para ponto flutuante
+//%s = formato para strings (sequência de caracteres)
+//%c = formato para caractere único
+//struct = palavra reservada para definir uma estrutura de dados
+//printf = função para imprimir dados na tela
+//scanf = função para ler dados da entrada padrão (teclado)
+//include = diretiva para incluir bibliotecas padrão
+//stdio.h = biblioteca padrão de entrada e saída em C.
+
+
+
+
     return 0;
-
-
-
-
-
 
 }
